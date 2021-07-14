@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# A slack clone featuring login/register, chat box with emojis, real time animations and more
+
+# Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
