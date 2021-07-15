@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import firebase from "../../firebase"
-import md5 from 'md5'
 
 import { Grid, Form, Segment, Button, Header, Message, Icon } from "semantic-ui-react";
 
@@ -17,7 +16,6 @@ export default class Login extends Component {
       loading: false,
     };
   }
-
 
   displayErrors = errors => 
     errors.map((error, i) => 
@@ -51,7 +49,6 @@ export default class Login extends Component {
 
   isFormValid = ({email, password}) => email && password;
   
-
   handleInputError = (errors, inputName) => {
     return errors.some(error => 
       error.message.toLowerCase().includes(inputName)) ? 'error' : ''
