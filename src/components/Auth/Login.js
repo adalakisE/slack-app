@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import firebase from "../../firebase"
-
 import { Grid, Form, Segment, Button, Header, Message, Icon } from "semantic-ui-react";
-
 import { Link } from "react-router-dom";
 
 export default class Login extends Component {
